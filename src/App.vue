@@ -83,7 +83,11 @@ onMounted(() => {
   // 屏蔽右键
   document.oncontextmenu = () => {
     ElMessage({
+<<<<<<< HEAD
       message: "为了浏览体验，本站禁用右键你麻痹是真的烦",
+=======
+      message: "为了浏览体验，本站禁用右键噢噢噢噢0417",
+>>>>>>> e42046fa4a9e694afd92a4ee9075312a6151567d
       grouping: true,
       duration: 2000,
     });
